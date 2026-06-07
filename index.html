@@ -50,7 +50,7 @@
 
     .coming-soon {
       margin-top: 2.5rem;
-      font-size: 0.72rem;
+      font-size: 0.85rem;
       letter-spacing: 0.3em;
       text-transform: uppercase;
       color: #D4AF82;
@@ -61,9 +61,12 @@
 <body>
 
   <h1 class="visually-hidden">Stephens Estates</h1>
-  <img class="logo" src="stephens-estates-logo-removebg.png" alt="Stephens Estates" />
+  <img class="logo" src="stephens-estates-logo-removebg.png" alt="Stephens Estates" onerror="this.style.display='none';document.getElementById('logo-fallback').style.display='block'" />
+  <p id="logo-fallback" style="display:none;font-size:2rem;letter-spacing:0.2em;text-transform:uppercase;color:#D4AF82;">Stephens Estates</p>
 
   <p>Premium property management services, delivered with discretion and care.</p>
+
+  <p>London &middot; Somerset &middot; Dorset &middot; Devon &middot; Wiltshire &middot; Hampshire</p>
 
   <p class="coming-soon">Website coming soon</p>
 
